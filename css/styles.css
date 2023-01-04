@@ -104,7 +104,7 @@ header nav ul li a:hover:before {
     top: 40%;
     left: 160px;
     transform: translate(0, -45%);
-    width: 45%;
+    width: 60%;
 }
 .header-txt span {
     color:#cbe346 ;
@@ -391,7 +391,7 @@ footer ul li a:hover {
     .header-txt {
         left:130px;
         font-size: 49px;
-        width: 51%;
+        width: 60%;
     }
     .btnheader {
         left: 130px;
@@ -476,7 +476,7 @@ footer ul li a:hover {
     .header-txt {
         left:130px;
         font-size: 47px;
-        width: 62%;
+        width: 80%;
     }
     .btnheader {
         left: 130px;
@@ -578,8 +578,10 @@ footer ul li a:hover {
         display: none!important;
     }
 
-    .slick-slider .slick-track {
-        transform: translate3d(-1035px, 0px, 0px)!important;
+    .slick-dots {
+        position: absolute;
+        bottom: 19px!important;
+        left: 90px;
     }
 
     footer {
@@ -608,4 +610,8 @@ footer ul li a:hover {
 }
 
 
-
+@media (min-width:1441px) {
+   .header-txt {
+    top:44%
+   }
+} 
